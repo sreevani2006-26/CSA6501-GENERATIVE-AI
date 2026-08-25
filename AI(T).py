@@ -1,10 +1,8 @@
-# Zero-shot Prompt
+
 zero_shot = """
 Generate a product description for a Smart Fitness Watch.
 Mention its features, benefits, and target audience.
 """
-
-# One-shot Prompt
 one_shot = """
 Example:
 Product: Wireless Earbuds
@@ -15,8 +13,6 @@ and long battery life for music lovers.
 Now generate a similar description for:
 Product: Smart Fitness Watch
 """
-
-# Few-shot Prompt
 few_shot = """
 Example 1:
 Product: Wireless Earbuds
