@@ -1,11 +1,4 @@
-# Experiment 2
-# Design Zero-shot, One-shot, and Few-shot prompts
-# to generate a 200-word blog on
-# "Applications of Artificial Intelligence in Healthcare"
 
-# -------------------------
-# Zero-shot Prompt
-# -------------------------
 zero_shot = """
 Write a 200-word blog on the topic
 'Applications of Artificial Intelligence in Healthcare'.
@@ -16,25 +9,15 @@ Instructions:
 - Mention at least four applications.
 - Include a short conclusion.
 """
-
-# -------------------------
-# One-shot Prompt
-# -------------------------
 one_shot = """
 Example:
-
 Topic: Benefits of Online Learning
-
 Blog:
 Online learning has transformed education by making quality learning accessible to everyone. Students can attend classes from anywhere, access recorded lectures, and learn at their own pace. It saves travel time, reduces costs, and offers flexible schedules. Interactive tools and digital resources improve engagement and understanding. Online learning also supports lifelong education by allowing professionals to upgrade their skills. Although internet connectivity can sometimes be a challenge, the advantages outweigh the disadvantages. Overall, online learning has become an effective and convenient way to gain knowledge in today's digital world.
 
 Now write a similar 200-word blog on:
 'Applications of Artificial Intelligence in Healthcare'.
 """
-
-# -------------------------
-# Few-shot Prompt
-# -------------------------
 few_shot = """
 Example 1:
 
