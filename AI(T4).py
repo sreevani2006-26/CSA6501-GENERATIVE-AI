@@ -1,10 +1,4 @@
-# Experiment 4
-# Design Zero-shot, One-shot, and Few-shot prompts
-# to generate a professional leave email due to illness.
 
-# -----------------------------
-# Zero-shot Prompt
-# -----------------------------
 zero_shot = """
 Write a professional email requesting leave due to illness.
 
@@ -15,9 +9,6 @@ Instructions:
 - End with a thank-you note.
 """
 
-# -----------------------------
-# One-shot Prompt
-# -----------------------------
 one_shot = """
 Example:
 
@@ -37,10 +28,6 @@ ABC
 
 Now write a similar professional email requesting leave due to illness.
 """
-
-# -----------------------------
-# Few-shot Prompt
-# -----------------------------
 few_shot = """
 Example 1
 
