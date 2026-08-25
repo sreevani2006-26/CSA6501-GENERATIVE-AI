@@ -1,11 +1,4 @@
-# Experiment 3
-# Design Zero-shot, One-shot, and Few-shot prompts
-# to summarize an article into 50 words
-# and compare the generated summaries.
 
-# -----------------------------
-# Sample Article
-# -----------------------------
 article = """
 Artificial Intelligence (AI) is transforming healthcare by improving diagnosis,
 personalizing treatments, and enhancing patient care. AI-powered systems analyze
@@ -18,19 +11,12 @@ advancements, AI is expected to play an increasingly important role in modern
 healthcare.
 """
 
-# -----------------------------
-# Zero-shot Prompt
-# -----------------------------
 zero_shot = f"""
 Summarize the following article into exactly 50 words.
 
 Article:
 {article}
 """
-
-# -----------------------------
-# One-shot Prompt
-# -----------------------------
 one_shot = f"""
 Example:
 
@@ -52,9 +38,6 @@ Article:
 {article}
 """
 
-# -----------------------------
-# Few-shot Prompt
-# -----------------------------
 few_shot = f"""
 Example 1
 
@@ -99,7 +82,6 @@ print("\n" + "="*60)
 print("FEW-SHOT PROMPT")
 print("="*60)
 print(few_shot)
-
 print("\n" + "="*60)
 print("COMPARISON")
 print("="*60)
